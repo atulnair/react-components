@@ -4,7 +4,7 @@ import React from 'react';
 const Button = (props) =>
 {
 
-    const styles = {
+    let styles = {
         height          :props.ui.size.h + 'px',
         width           :props.ui.size.w + 'px',
         color           :props.ui.color.txt,

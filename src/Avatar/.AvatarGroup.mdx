@@ -1,0 +1,41 @@
+---
+name: AvatarGroup
+---
+
+import { Playground } from 'docz'
+import AvatarGroup from './AvatarGroup.js'
+import Avatar from './Avatar.js'
+
+# AvatarGroup
+
+
+## Basic usage
+
+<Playground>
+<AvatarGroup max = {3}>
+    <Avatar ui = {{
+            size: 100,
+            borderRadius: 50,
+            color: { backgroundColor: "black",textColor: "red"},
+            imgOpacity: 1,
+            imgSrc: "https://toppng.com/uploads/preview/flat-faces-icons-circle-persona-icon-115628952315akhsf8ncl.png",
+        }} />
+    <Avatar ui = {{
+            size: 100,
+            borderRadius: 50,
+            color: { backgroundColor: "black",textColor: "red"},
+            imgOpacity: 1,
+            letter:"CW",
+        }} />
+    <Avatar ui = {{
+            size: 100,
+            borderRadius: 50,
+            color: { backgroundColor: "black",textColor: "red"},
+            imgOpacity: 1,
+            imgSrc: "https://toppng.com/uploads/preview/flat-faces-icons-circle-persona-icon-115628952315akhsf8ncl.png",
+          }} />
+
+
+</AvatarGroup>
+<br/><br/><br/><br/>
+</Playground>
