@@ -1,3 +1,1 @@
-function text(){
-  return <h1>haha</h1>
-}
+export { default as Button } from './Button/Button';
