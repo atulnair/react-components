@@ -1,0 +1,47 @@
+---
+name: Normal Slider
+menu: Slider
+---
+
+import { Playground } from 'docz'
+import Slider_normal from './normalSlider.js'
+
+# Normal Slider
+
+
+## Basic usage
+
+<Playground>
+<Slider_normal type="normal"
+  ui={{
+    style_inp: {
+      margin: "50px",
+      width: "75%",
+    },
+    min: "0",
+    max: "100",
+    defaultvalue: "0",
+  }}
+/>
+
+
+</Playground>
+
+<Playground>
+<Slider_normal type="normal_w_value"
+  ui={{
+    style_inp: {
+      width: "75%",
+    },
+    defaultvalue: "0",
+    min: "0",
+    max: "100",
+    style_op: {
+      backgroundImage: "linear-gradient(to bottom, black, grey)",
+      font: "bold 15px/30px Georgia",
+    },
+  }}
+/>
+
+
+</Playground>

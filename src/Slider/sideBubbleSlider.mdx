@@ -1,0 +1,57 @@
+---
+name: Side Bubble Slider
+menu: Slider
+---
+
+import { Playground } from 'docz'
+import Slider_bubble from './sideBubbleSlider.js'
+
+# Side Bubble Slider
+
+
+## Basic usage
+
+<Playground>
+<Slider_bubble type="slider_hovsidebubble"
+  ui={{
+    style_inp: {
+      backgroundColor: "grey",
+    },
+    style_thumb: {
+      backgroundColor: "red",
+    },
+    defaultvalue: "0",
+    min: "0",
+    max: "100",
+    style_op: {
+      backgroundImage: "linear-gradient(to bottom, black, grey)",
+      font: "bold 15px/30px Georgia",
+    },
+  }}
+/>
+
+
+</Playground>
+
+<Playground>
+<Slider_bubble type="slider_hovsidebubbleicon"
+  ui={{
+    style_inp: {
+      backgroundColor: "grey",
+    },
+    style_thumb: {
+      backgroundImage:
+        "url(https://www.pngitem.com/pimgs/m/20-202269_phone-number-telephone-svg-png-icon-free-download.png)",
+    },
+    defaultvalue: "0",
+    min: "0",
+    max: "100",
+    style_op: {
+      backgroundImage: "linear-gradient(to bottom, black, grey)",
+      font: "bold 15px/30px Georgia",
+    },
+  }}
+/>
+
+
+</Playground>
