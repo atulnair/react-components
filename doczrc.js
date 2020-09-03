@@ -4,4 +4,14 @@ export default {
   themeConfig: {
    initialColorMode: 'dark',
  },
+ menu: [
+    'Button',
+    'Avatar',
+    'Switch',
+    'Checkbox',
+    'SpeedDial',
+    'Radio',
+    'Select',
+
+  ]
 }

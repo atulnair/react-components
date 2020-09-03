@@ -1,5 +1,6 @@
 ---
 name: Button
+route: /
 ---
 
 import { Playground } from 'docz'
@@ -11,11 +12,23 @@ import Button from './Button.js'
 ## Basic usage
 
 <Playground>
-<Button ui={{
-   size:{h:"40", w:"200"},
-   color:{txt:"aqua", bg:"midnightBlue"},
-   border:{w:"2", style:"solid", color:"aqua", r:"10"},
-   margin:{l:"20", t:"20"},
- content:{txt:'he', size:'1', space:'1'},
- }} />
+<Button
+  ui={{
+    size: { h: '50', w: '150' },
+    color: { txt: 'aqua', bg: 'midnightBlue' },
+    border: { w: '2', style: 'solid', color: 'aqua', r: '0' },
+    margin: { l: '20', t: '20' },
+    content: { txt: 'HI', size: '1', space: '1' },
+  }}
+/>
+
+<Button
+  ui={{
+    size: { h: '50', w: '150' },
+    color: { txt: 'white', bg: '#db1a5e' },
+    border: { w: '2', style: 'dotted', color: '#db1a5e', r: '5' },
+    margin: { l: '20', t: '20' },
+    content: { txt: 'HI', size: '1', space: '1' },
+  }}
+/>
 </Playground>
